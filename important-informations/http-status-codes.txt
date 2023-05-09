@@ -1,0 +1,54 @@
+1xx information codes
+--> 100 contiune 
+--> 101 switching protocols
+
+
+2xx success codes
+--> 200 ok
+--> 201 created
+--> 202 accepted
+--> 203 non-authoritative information
+--> 204 no content
+--> 205 reset content
+--> 206 partial content
+
+
+3xx routing codes
+--> 300 Multiple Choices
+--> 301 Moved Permanently
+--> 302 Foun Moved Temporarily
+--> 303 see Other
+--> 304 Not Modified
+--> 305 Use Proxy
+--> 306 Switch Proxy
+--> 307 Temporary Redirect
+
+
+4xx client error codes
+--> 400 Bad Request
+--> 401 Unauthorized
+--> 402 Payment Requaried
+--> 403 Forbidden
+--> 404 Not Found
+--> 405 Method Not Allowed
+--> 406 Not Acceptable
+--> 407 Proxy Authentication Requried
+--> 408 Request timeout
+--> 409 Conflict
+--> 410 Gone
+--> 411 Lenght Requaried
+--> 412 Precondition Failed
+--> 413 Request Entity Too Large 
+--> 414 Request-URL Too Long
+--> 415 Unsupported Media Type
+--> 416 Request Range Not Saticfiable
+--> 417 Expectation Failed
+
+
+5xx server error codes
+--> 500 Internal Server Error
+--> 501 Not Implemented
+--> 502 Bad Gateway
+--> 503 Service Unavailable
+--> 504 Gateway Timeout
+--> 505 HTTP Version Not Suported
