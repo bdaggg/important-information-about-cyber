@@ -1,0 +1,330 @@
+A:
+
+a2ps : ASCII dosyalarini Postscript formatina cevir, mesela yazdiginiz bir program kodunu
+acroread : AcrobatReader, pdf-dosyalarini görebilmek icin gerekli olan program
+alias : Komuta baska bir isim ver
+apropos : Belli bir kelimeyi man sayfalarinda ara
+ar : Arsiv olusturmak, olusturulmus bir arsivi calismak ya da acmak icin
+arch : Processor’un yapisi hakkinda bilgi ver
+arp : Host ve IP numarasini göster. (arp = adress resolution protocol)
+at : Komutu ya da komutlari daha sonraki bir zamanda calistir (bak. batch)
+
+
+B:
+
+basename : Bir dosyanin gercek ismini ver (Üst dizinleri göstermeden)
+bash : Bourne Again Shell -> Linux’un standart shell’i
+batch : Komutu ya da komutlari daha sonra ki bir zamanda calistir(bak. at)
+bg : Bir programi Ön planda calistir
+break : Bir blogu belli bir kosuldan terk et (bak. continue)
+bunzip2 : (bak. bzip2)
+bzip2 : Bir arsivleme programi
+
+
+C:
+
+
+cal : Aktuel takvimi göster
+calender : Bir randevu hatirlatma programi
+case : Coklu seceneklere ayirma komutu
+cat : Dosyayi monitöre ver
+cc : C derleyicisi (C-compiler)
+cd = Dizin degistir
+cdrecord : CD kopyalama tool’u
+chfn : finger bilgilerinde degisiklik yap
+chgrp : Grup degistir
+chmod : Bir dosyanin haklarini degistir
+chown : Bir dosyanin sahiplerini degistir
+chroot : Bir komutu Özel bir root dizininde calistir
+chsh : Standart shell i degistir
+clear : Monitörü temizle
+continue : Bir bloku belli bir kosuldan sonra terk etme ve kaldigin yerden devam et. (bak. break)
+cmp : Iki dosyayi karsilastir (bak. comm, diff)
+comm : Iki dosyayi satir satir karsilastir (bak. cmp, diff)
+cp : Dosyayi kopyala
+csh : C-Shell -> Yapisi biraz C diline benzeyen bir shell programi
+csplit : Bir dosyayi parcalara ayir
+cut : Bir dosyadan belli sütunlari kes
+
+
+D:
+
+date : Aktuel zamani göster
+deluser : Kullanici sil
+delgroup : Grup sil
+df : Bellekte ne kadar bos yer oldugunu göster
+diff : Iki dosya arasindaki farklari göster (bak. cmp, comm)
+do : Belli bir kosuldan sonra bir komutu ya da komut blogunu calistir
+done : do blogunun bitimi (bak. do)
+du : Bir dosyanin ya da dizinin bellekte ne kadar yer kapladigini göster
+
+
+E:
+
+echo : Harf dizisini monitöre yaz
+ed : Bir editör programi
+egrep : Bir dosyanin icinde belli bir harf dizisini ara(bak. fgrep. grep)
+eject : Medium’u disari ver, mesela CDROM
+emacs : Bir editör programi
+elif : if kosulunun saglanmadigi zaman devreye sokulan baska bir if kosulu
+else : if kosullarinin saglanmadigi zaman devreye sokulan baska komutu
+env : Bütün sistem degiskenlerini göster
+esac : case seceneklerinin bitimi (bak. case)
+exec : Komutu calistir
+exit : Shell’den cikma komutu
+export : Sistem degiskeninin tanimlanmasi
+expr : Matematik ifadesini hesapla
+
+
+F:
+
+false : Boolean tipinde “yanlis” degeri
+fdformat : Disket formatla
+fdisk : Bellegi bölme programi
+fg : Programi ön plana al
+fgrep : (bak. egrep, grep)
+fi : if kosulunun sonu (bak if)
+file : dosya hakkinda bilgi ver
+find : Belli bir dosyayi dizinlerde ara
+finger : Sisteme kayitli olan kullanciliari göster ya da kullanici hakkinda bilgi ver
+for : Belli komutlari belli bir kosula kadar döngü seklinde calistir
+ftp : Dosya transfer programi (ftp = file transfer protocol)
+fvwm : Linux icin yapilmis bir desktop programi (bak. fvwm2, gnome, kde …)
+fvwm2 : (bak. fvwm)
+
+
+G:
+
+g++ : C++ derleyicisi (C++ compiler)
+gcc : GNU C derleyicisi
+gnome : (bak fvwm)
+grep : (bak. egrep , fgrep)
+groupadd : Yeni bir grup olustur
+groupdel : Grup sil
+groupmod : Grup üzerinde degisiklikler yap
+groups : Kullanicinin bagli oldugu gruplari göster
+grub : Bir cesit Linux Bootloader (bak. lilo)
+gunzip : (bak. gzip)
+gvim : vi editörünün GUI (graphical user interface) versiyonu
+gzip : Bir arsivleme programi
+
+
+H:
+
+halt : Sistemi durdur
+head : Bir dosyanin ilk satirlarini göster (standart 10 satir) (bak. tail)
+help : Shell komutlarini göster
+history : Kullanicini o zamana kadar kullandigi komutlari göster
+host : Bir bilgisayarin adini sor
+hostid : sistemin host kimligini göster
+hostname : sistemin host adini göster
+httpd : Apache server’i baslat
+httpd2 : Apache 2 server’i baslat
+
+
+I:
+
+id : Kullanicini kullanici kodunu , bagli oldugu gruplarin kodunu göster
+if : “eger” kontrolu
+ifconfig : Ag kartini ayarla
+init 0 : Sistemi kapat ( bak. halt, shutdown, poweroff)
+init 1 : Sistemi tek kullanicili modus’a gecir (bak. init S, init s)
+init 2 : Sistemi lokal cok kullanicili modus’a gecir
+init 3 : Sistemi tam aga bagli sekilde ve cok kullanicili modus’a gecir
+init 5 : Sistemi tam aga bagli sekilde, cok kullancili ve GUI’li modus’a gecir
+init 6 : Sistemi yeniden baslat
+init S : (bak. init 1)
+init s : (bak. init 1)
+
+
+J:
+
+jar : Java arsiv
+java : Java Virtual Machine (JVM)
+javac : Java Compiler
+javadoc : Java dokumanlari olustur
+jdb : Java Debugger
+jikes : IBM tarafindan sunulan ve javac’tan daha hizli olan bir Java Compiler
+joe : Bir editör programi
+
+
+K:
+
+k3b : KDE’de GUI’li bir CD kopyalama programi
+kaffeine : KDE CD, VCD, DVD vs. oynatma programi
+kate : Bir KDE editör programi
+kbear : Bir KDE FTP programi
+kcalc : Bir KDE hesap makinesi programi
+kde : KDE destop
+kernelversion : Hangi kernel versiyonu kullanildigini göster
+kmail : KDE Mail programi
+konqueror : KDE internet browser
+konsole : Yeni bir konsol ac
+kopete : Bir KDE multiple messenger programi
+kill : Process bitir
+killall : Bütün process’leri bitir
+kwrite : Bir KDE editörü
+
+
+L:
+
+last : Sisteme son kayit olan kisileri göster
+less : Herhangi bir ciktiyi monitörde sayfa sayfa göster (bak. more)
+lilo : Bir Linux Bootloader (bak. grub)
+ln : Dosyalar ya da dizinler arasinda link olustur
+logname : login ismini göster
+logout : Sistemden ayril (eger login shell’le girildiyse)
+lpr : Dosyayi basilmasi icin yaziciya gönder
+lprm : Yaziciya gönderilen dokümanlari sil
+ls : Dizinde bulunan dosyalari listele
+lsmod : Yüklenmis modullari listele
+
+
+M:
+
+mail : Kullancillar arasinda mail yazmayi mümkün kilan mail programi
+make : C programini belli bir kurala göre derleyen komut
+man : Manual sayfalar dokümanlari
+mcedit : Bir editör programi
+mkdir : Yeni bir dizin olustur
+modprobe : Kernel’a bir module eklemek ya da ondan silmek icin
+mozilla : Netscape’in open source versiyonu ve gercekten harika bir web browser
+more : (bak. less)
+mount : Bir aleti bagla
+mv : Dosyayi kaydir ya da ismini degistir (dikkat: cok tehlikeli bir komut bence)
+mysql : MySQL veritabani programi
+
+
+N:
+
+nedit : Bir editör programi
+newgrp : Yeni bir gruba gir
+netstat : Ag baglantilarini görüntüle
+netscape : Bir web browser
+nl : Bir dosyayi satirlari numaralandirarak göster
+nslookup : DNS (domain name system) sorgusu
+
+
+O:
+
+opera : Hizli bir web browser
+
+
+P:
+
+passwd : Sifre degistir
+perl : PERL interpreter
+php : PHP interpreter
+pine : Bir mail programi
+ping : Baska bir bilgisayara ulasabilme sorgusu
+poweroff : Sistemi kapat (bak. init 0)
+ps : Calisan process’leri göster
+pwd : Icinden bulunulan dizini göster
+
+
+Q:
+
+quanta : Güzel bir HTML editörü
+
+
+R:
+
+read : Shell’de monitörde girilen girdiyi oku
+reboot : Sistemi yeniden baslat (bak. init 6)
+reset : Shell ayarlarini eski ayarlara getir
+return : Bir fonksiyonun hesapladigi degeri geri vermesi icin gereken komut
+rlogin : Uzaktaki bir bilgisayara baglan (bak. telnet)
+rm : Dosyayi sil
+rmdir : Dizini sil (dizinin bos olmasi sarti ile)
+rpm : Redhat Packet Manager (ama genelde bütün Linux distrolari tarafindan desteklenir)
+
+
+S:
+
+setxkbmap tr : makinamızın klavyesinisini türkçeye çeviriyoruz
+select : Secenek secimi
+set : Deger ver
+sh : Bourne Shell
+shift : Kaydir
+shutdown : Sistemi kapat (bak. init 0)
+sleep : Belli bir süre ara ver
+sort : Siralayarak göster
+split : Bir dosyayi parcalara ayir
+startx : X-Server baslat
+su : Baska bir kullanici adiyla gir ( option verilmezse root sifresi vermek gerekir)
+sudo : Bir komutu root gibi calistir (tabii “sudoers” dosyasi buna izin veriyorsa, normal bir kullanicinin sudoers’i okumaya hakki yoktur).
+
+
+T:
+
+tail : Bir dosyanin son satirlarini göster (standart 10 satir). (bak. head)
+talk : Sisteme kayitli olan baska bir kullanici ile sohbet et
+tar : Arsiv programi
+tcsh : Ilerletilmis bir C-shell
+telnet : Uzak bir bilgisayara baglan
+then : if kosulu saglaniyorsa bundan sonraki komutlari calistir
+time : Bir komutun ne kadar süre harcadigini göster
+test : Bir kosulu test et
+top : Process’leri görüntüle
+touch : Dosyanin degistirilme zamanini degistir
+traceroute : Router takibi
+true : Boolean tipindeki “dogru” degeri
+
+
+U:
+
+umask : Bir dosya icin standart haklar belirle
+uniq : Siralanmis bir dosya icinde birden fazal ayni satirlari ele
+umount : Baglanmis bir aleti sistemden geri cöz (hayir komutu yanlis yazmadim ;o) komutun ismi “unmount” degil)
+unalias : alias’la degistirilmis komut aliaslarini geri cevir
+unrar : Bir Arsivleme programi
+until : Bir komutlar blogunu belli bir kosula kadar uygula
+unzip : Arsiv programi
+useradd : Sisteme yeni bir kullanici ekle
+userdel : Sistemden bir kullanici sil
+users : Su anda sisteme kayitli olan kullanicilari göster
+
+
+V:
+
+vi : (bak.vim)
+vim : Bir editör programi
+visudo : sudoers dosyasi üzerinde calis
+
+
+W:
+
+w : Hangi kullanicinin o anda hangi komutu calistirdigini ya da hangi programi kullandigini göster
+wait : Belli bir process’i bekle
+wall : Bütün kullanicilara mesaj yolla
+wc : Harf, kelime ve satir sayma komutu
+wget : Belli bir sayfa icerigini agdan lokal PC ye indir
+whatis : Bir komutun ne ise yaradigini göster
+whereis : Ara
+which : Ara
+while : Komutlari belli bir kosula kadar döngü halinde calistir
+who : Sisteme kayitli olan kullanicilari göster (bak. finger, w)
+whoami : Kullanicinin kendisi hakkinda bilgi
+windowmaker : Bir destkop
+wine : Windows Emulator programi
+wish : Windowing Shell
+write : Bir kullaniciya mesaj gönder
+
+
+X:
+
+xanim : Bir media player
+xmms : MP3 player
+xterm : X Terminal
+
+
+Y:
+
+yast (sadece SuSE) : Sistem ayarlari yapmak icin GUI’siz bir tool (yet another setup tool)
+yast2 (sadece SuSE) : Sistem ayarlari yapmak icin GUI’li bir tool
+you (sadece SuSE) : YaST online update
+
+
+Z:
+
+zip : Arsivleme programi
